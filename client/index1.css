@@ -72,6 +72,9 @@ a:hover{
 .github-icon{
     background-color: #555;
 }
+.link-icon{
+    background-color: #09f40d;
+}
 .icon-link:hover{
     transform:scale(1.1);
     color:#fff;
@@ -512,7 +515,7 @@ section h2{
     padding: 0px 0px 20px 0px;
 }
 .project-thumbnail:hover{
-    transform: scale(5);
+    transform: scale(1.05);
 }
 .thumbnail-content img {
     width: 100%;
