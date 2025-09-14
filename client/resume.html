@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Resumes</title>
+  <link rel="stylesheet" href="resume.css">
+</head>
+<body>
+
+  <header>
+    <button onclick="scrollToResumes()">Resumes</button>
+  </header>
+
+  <section class="intro">
+    <h1>Welcome to My Resume Collection</h1>
+    <p>Explore my resume versions for different roles.</p>
+  </section>
+
+  <section id="resume-section">
+    <h2>All Resume Versions</h2>
+
+    <div class="resume-container">
+
+      <!-- Resume Box 1 -->
+      <div class="resume-box">
+        <h3>Frontend Developer Resume</h3>
+        <p>Focused on HTML, CSS, JavaScript, React, and UI/UX design skills.</p>
+        <div class="buttons">
+          <a href="suraj_resume.pdf" target="_blank" class="btn view">View</a>
+          <a href="suraj_resume.pdf" download class="btn download">Download</a>
+        </div>
+      </div>
+
+      <!-- Resume Box 2 -->
+      <div class="resume-box">
+        <h3>Backend Developer Resume</h3>
+        <p>Specialized in Node.js, Express, MongoDB, and scalable APIs.</p>
+        <div class="buttons">
+          <a href="suraj_resume.pdf" target="_blank" class="btn view">View</a>
+          <a href="suraj_resume.pdf" download class="btn download">Download</a>
+        </div>
+      </div>
+
+      <!-- Resume Box 3 -->
+      <div class="resume-box">
+        <h3>Full Stack Developer Resume</h3>
+        <p>Combines frontend and backend with complete project life cycle experience.</p>
+        <div class="buttons">
+          <a href="surajrawatkumarresumefinal.pdf" target="_blank" class="btn view">View</a>
+          <a href="surajrawatkumarresumefinal.pdf" download class="btn download">Download</a>
+        </div>
+      </div>
+
+      <!-- Resume Box 4 (optional) -->
+      <div class="resume-box">
+        <h3>Data Science Resume</h3>
+        <p>Machine learning, data analysis, Python, and Jupyter Notebooks.</p>
+        <div class="buttons">
+          <a href="surajrawatkumarresumefinal.pdf" target="_blank" class="btn view">View</a>
+          <a href="surajrawatkumarresumefinal.pdf" download class="btn download">Download</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <script>
+    function scrollToResumes() {
+      document.getElementById('resume-section').scrollIntoView({ behavior: 'smooth' });
+    }
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,53 @@
+[
+  {
+    "title": "HTML",
+    "icon": "fab fa-html5",
+    "resources": [
+      { "name": "MDN HTML Guide", "link": "https://developer.mozilla.org/en-US/docs/Web/HTML" },
+      { "name": "W3Schools HTML", "link": "https://www.w3schools.com/html/" },
+      { "name": "freeCodeCamp HTML", "link": "https://www.freecodecamp.org/news/html-html5-tutorial/" }
+    ]
+  },
+  {
+    "title": "CSS",
+    "icon": "fab fa-css3-alt",
+    "resources": [
+      { "name": "CSS Tricks", "link": "https://css-tricks.com/" },
+      { "name": "MDN CSS", "link": "https://developer.mozilla.org/en-US/docs/Web/CSS" },
+      { "name": "W3Schools CSS", "link": "https://www.w3schools.com/css/" }
+    ]
+  },
+  {
+    "title": "JavaScript",
+    "icon": "fab fa-js",
+    "resources": [
+      { "name": "JavaScript.info", "link": "https://javascript.info/" },
+      { "name": "MDN JavaScript", "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript" },
+      { "name": "W3Schools JavaScript", "link": "https://www.w3schools.com/js/" }
+    ]
+  },
+  {
+    "title": "React",
+    "icon": "fab fa-react",
+    "resources": [
+      { "name": "React Official Docs", "link": "https://react.dev/" },
+      { "name": "React W3Schools", "link": "https://www.w3schools.com/react/" }
+    ]
+  },
+  {
+    "title": "Node.js",
+    "icon": "fab fa-node-js",
+    "resources": [
+      { "name": "Node.js Docs", "link": "https://nodejs.org/en/docs" },
+      { "name": "W3Schools Node.js", "link": "https://www.w3schools.com/nodejs/" }
+    ]
+  },
+  {
+    "title": "MongoDB",
+    "icon": "fas fa-database",
+    "resources": [
+      { "name": "MongoDB University", "link": "https://university.mongodb.com/" },
+      { "name": "MongoDB Docs", "link": "https://www.mongodb.com/docs/" }
+    ]
+  }
+]
