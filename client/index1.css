@@ -499,7 +499,7 @@ section h2{
 }
 #projects{
     display: grid;
-    width:70%;
+    width:80%;
     max-width: 1200px;
     margin: 0 auto;
     grid-template-columns: repeat(3, 1fr);

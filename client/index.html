@@ -83,6 +83,14 @@ The platform builds trust and boosts conversions through authentic social proof.
                       <a href="#" class="btn know-more" data-modal-target="projectModal3">Know More</a>
                  </div>
           </div>
+           <div class="project-thumbnail">
+                 <div class="thumbnail-content">
+                      <img src="pictures/blogpost.jpg" alt="Project 3">
+                      <h3>Blog post App</h3>
+                      <p>A blog post app, such as the official Blogger app or third-party apps like BlogIt! or Blogspot Prime, allows you to create, edit, and publish blog content directly from your smartphone or tablet. These applications offer features like rich text editing, image and video embedding, comment management, and blog statistics.</p>
+                      <a href="#" class="btn know-more" data-modal-target="projectModal4">Know More</a>
+                 </div>
+          </div>
      </section><hr>
 
      <section id="programming-languages">
@@ -244,7 +252,7 @@ The platform builds trust and boosts conversions through authentic social proof.
         const data = { name, email, mobile, gender, message };
 
         try {
-            const response = await fetch('http://localhost:3000/submit-form', {
+            const response = await fetch('https://portfoliopersonal-rrkt.onrender.com/submit-form', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(data),
@@ -341,9 +349,9 @@ The platform builds trust and boosts conversions through authentic social proof.
                     <p>The Task Management System is a web-based application designed to help individuals and teams organize, track, and manage tasks efficiently. It provides tools for task creation, assignment, progress tracking, and deadline management in a collaborative environment. The Task Management System lets users create projects, assign tasks, set deadlines, and track progress with status updates.
 It features user authentication, role-based access, notifications, and task filtering.
 Designed with a responsive UI, it works seamlessly on both desktop and mobile devices.</p>
-                    <a href="https://github.com/suraj26-26" target="_blank" class="github-link"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://github.com/suraj26-26/TaskManagementSystem.git" target="_blank" class="github-link"><i class="fa-brands fa-github"></i></a>
                     <a href="https://www.linkedin.com/in/suraj-rawat-b550bb29a" class="icon-link linkedin-icon" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="" class="icon-link link-icon" target="_blank"><i class="fa-solid fa-link"></i></a>
+                    <a href="https://surajtaskpro.onrender.com/" class="icon-link link-icon" target="_blank"><i class="fa-solid fa-link"></i></a>
                 </div>
                 <div class="column image-carousel">
                     <div class="carousel-container">
@@ -459,6 +467,63 @@ Interact → Like/comment on reviews. </li>
                 </div>
             </div>
         </div>
+    </div>
+</div>
+<div id="projectModal4" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Blog Post App</h2>
+        <hr>
+        <div class="modal-body">
+            <div class="modal-row">
+                <div class="column description">
+                    <p><b>Short project overview: this project is a comprehensive exploration...</b></p>
+                    <p>A blog post application project focuses on creating a web-based platform that enables users to create, publish, view, and manage blog posts. The core functionality revolves around content creation and interaction.</p>
+                    <a href="https://github.com/suraj26-26/blogmernsuraj.git" target="_blank" class="github-link"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/suraj-rawat-b550bb29a" class="icon-link linkedin-icon" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://blogmernsuraj.vercel.app/" class="icon-link link-icon" target="_blank"><i class="fa-solid fa-link"></i></a>
+                </div>
+                <div class="column image-carousel">
+                    <div class="carousel-container">
+                        <div class="carousel-slide">
+                            <img src="pictures/blog1.webp" alt="Image 1">
+                            <img src="pictures/blog2.jpg" alt="Image 2">
+                            <img src="pictures/blog3.jpg" alt="Image 3">
+                            <img src="pictures/blog4.jpg" alt="Image 4">
+                            <img src="pictures/blogpost.jpg" alt="Image 5">
+                        </div>
+                        <a class="prev" onclick="moveSlide(-1)">&#10094;</a>
+                        <a class="next" onclick="moveSlide(1)">&#10095;</a>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-row">
+                <div class="column">
+                    <h3>Project Details</h3>
+                    <ul>
+                        <li>🌐 <b>User Authentication : </b>
+                            Secure login and registration for users to manage their content.</li>
+                        <li> 🎬 <b>Post Creation and Management :</b> 
+                            Tools for writing, editing, saving drafts, publishing, and deleting blog posts. This often includes rich text editing capabilities.</li>
+                         <li>🎥 <b>Content Display : </b>
+                            A user-friendly interface to display blog posts, typically in reverse chronological order, with options for categories, tags, and search.</li>
+                        <li>👀 <b>Commenting and Liking System :</b>
+                            Allowing readers to leave comments on posts and potentially interact with the author or other readers.</li>
+                        <li>✅ <b>Admin/Moderation Features :</b>
+                            For platform administrators to manage users, moderate comments, and potentially oversee content.</li>
+                        <li>☁️ <b>Database Integration :</b>
+                            Storing user information, blog posts, comments, and other relevant data in a persistent storage solution.</li>
+                        <li>☁️ <b>Responsive Design :</b>
+                            Ensuring the application is accessible and functional across various devices (desktops, tablets, mobile phones).</li>    
+                    </ul>
+                </div>
+                <div class="column">
+                    <h3>Project Video</h3>
+                    <iframe width="100%" height="200" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 </body>
 </html>
